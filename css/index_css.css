@@ -12,6 +12,8 @@ body{
   margin-top: 70px;
   font-size: 6em;
   text-align: center;
+  font-family: Gadugi;
+  font-weight: 100;
 }
 
 .o{
@@ -26,7 +28,7 @@ body{
     -moz-animation-name:orbit;
     -moz-animation-duration:5s;
     top:120px;
-    left:350px;
+    left:370px;
 }
 @-webkit-keyframes orbit { 
 from { -webkit-transform:rotate(0deg) } 
@@ -43,17 +45,20 @@ to { -moz-transform:rotate(360deg) }
   top: 250px;
   left: 580px
 }
-#aliens{
-  height: 400px;
-  background-image: url("aliens.png");
-  background-size: 40%;
-  position: relative;
-  background-position:bottom center;
-  background-repeat: no-repeat;
 
-}
 #p00-say{
-  position: relative;
+  margin: 50px 0 0 750px;
+}
+#p00-say > h3{
+  font-size: 1.5em;
+  color: #6ACCBB;
+  text-decoration: underline;
+}
+#p00-say > p{
+  color: #FFFFFF;
+}
+#planet{
+  width: 1366px;
 }
 
 /*    插入背景圖片    */
