@@ -76,6 +76,7 @@ to { -moz-transform:rotate(360deg) }
   position: relative;
   top: 800px;
   left: 700px;
+  opacity: 0;
 }
 #say02 > h3{
   font-size: 1.5em;
@@ -84,4 +85,7 @@ to { -moz-transform:rotate(360deg) }
 }
 #say02 > p{
   color: #FFFFFF;
+}
+.isShowing{
+  opacity: 1;
 }
