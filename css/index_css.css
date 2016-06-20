@@ -60,6 +60,10 @@ to { -moz-transform:rotate(360deg) }
 #planet{
   width: 1366px;
 }
+#planet02{
+  width: 500px;
+  margin-left: 350px;
+}
 
 /*    插入背景圖片    */
     .p00{

@@ -60,4 +60,12 @@ $(document).ready(function(){
                 }
             });
 
+
+     $(window).scroll(function(){
+         if($(window).scrollTop()>=$(".p01").offset().top && $(window).scrollTop()<$(".p02").offset().top){
+            $("#chang").attr("src","img/chang02.png");
+        }
+    });
+
 })
+ 
