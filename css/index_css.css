@@ -1,6 +1,6 @@
 body{
 	background-image: url("bg.jpg");
-  	width: 1366px;
+  	width: 1350px;
 }
 
 /*homepage*/
@@ -68,11 +68,12 @@ to { -moz-transform:rotate(360deg) }
 }
 
 #planet{
-  width: 1350px;
+  width: 1366px;
   margin: 500px 0 -20px -10px;
 
 }
 #say02{
+  width: 400px;
   position: relative;
   top: 800px;
   left: 700px;
@@ -86,6 +87,4 @@ to { -moz-transform:rotate(360deg) }
 #say02 > p{
   color: #FFFFFF;
 }
-.isShowing{
-  opacity: 1;
-}
+
