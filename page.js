@@ -60,15 +60,19 @@ $(document).ready(function(){
                 }
             });
 
-
-     $(window).scroll(function(){
-        if($(window).scrollTop()>=$(".p01").offset().top){
-            $("#chang").attr("src","img/chang02.png");
-        }
-        if($(window).scrollTop()>=$(".p03").offset().top){
-            $("#chang").attr("src","img/chang.png");
-        }
-    });
-
 })
+
+//角色變換
+$(window).scroll(function(){
+    var wScroll = $(this).scrollTop();
+    if(wScroll >= $(".p01").offset().top && wScroll < $(".p02").offset().top){
+        $(".character").attr("src","img/character01.png");
+    }else if(wScroll >= $(".p02").offset().top && wScroll < $(".p03").offset().top){
+        $(".character").attr("src","img/character02.png")
+    }else if(wScroll >= $(".p03").offset().top && wScroll < $(".p04").offset().top){
+        $(".character").attr("src","img/character03.png")
+    }else if(wScroll >= $(".p04").offset().top && wScroll < $(".p05").offset().top){
+        $(".character").attr("src","img/character04.png")
+    }
+});
  

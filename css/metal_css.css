@@ -7,10 +7,18 @@ body{
         margin:0;
     }
 
-
+.character{
+  width: 500px;
+  position: fixed;
+  top: 50px;
+  left: 450px;
+}
 #planet02{
   width: 500px;
   margin-left: 350px;
+}
+#blurred{
+  opacity: 0.8;
 }
 
 /*    插入背景圖片    */
@@ -50,11 +58,6 @@ body{
         top:40%;
         left:0px;
         cursor:pointer;
-    }
-    .character{
-    	position: fixed;
-    	top: 40%;
-    	left: 40%;
     }
     li{
         width:15px;

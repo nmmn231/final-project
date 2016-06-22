@@ -95,3 +95,9 @@ to { -moz-transform:rotate(360deg) }
   color: #FFFFFF;
 }
 
+#hedgehog{
+  width: 250px;
+  position: absolute;
+  top: 2100px;
+  left: 800px;
+}
