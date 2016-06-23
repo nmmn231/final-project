@@ -1,9 +1,189 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="audioplayer.css">
+    <link rel=stylesheet type="text/css" href="css/punk_css.css">
+    <title>Roll the Rock Map</title>
 </head>
+
 <body>
-  <iframe src="https://embed.spotify.com/?uri=spotify:user:11150432037:playlist:4GglrKkQwSafaIewAhnNKi" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+<header></header>
+
+<div class="container">
+    <nav class="nav">
+        <ul>
+            <div id="map">
+                
+        	    <div id="nav-icon1">
+                    <span></span>
+                    <span></span>
+                    <span></span>  
+                </div>
+                <a href="test.html" id="mapref">
+                    <h4>曲風地圖</h4>
+                </a>
+                
+            </div><div class="flexbox">
+                <div class="dot">
+                    <img src="img/circle.png" class="sidebar1" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar2" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar3" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar4" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar5" id="sidebar">
+                </div>
+                <div class="text">
+                    <p>龐克</p><br>
+                    <p>後龐克</p><br>
+                    <p>硬核龐克</p><br>
+                    <p>油漬搖滾</p><br>
+                    <p>流行龐克</p>
+                </div>
+            </div>
+        </ul>
+        <img src="img/volume.png" width="30" height="30" id="volume">
+        <div id="main">
+                <div class="demo">
+                    <audio id="player" preload="auto" controls>
+                        <source src="music/punk1.mp3">
+                    </audio>
+                    
+                    <script>
+                    $(function() { 
+                        $('audio').audioPlayer();
+                    });
+                    </script>
+                </div>
+            </div>
+    </nav>
+    <img class="character" src="img/character01.png">
+    <div class="content">
+        <div class="p00">
+            <h1 class="blink">警告！即將進入龐克亂流層！</h1>
+            <img id="blurred" src="img/blurred04.png">
+            <img src="img/rocket.png" height="1800" style="transform:rotate(60deg); margin-left:800px">
+        </div>
+        <div class="p01">
+            <h2>1970初<img class="logo" src="img/logo.png"></h2>
+            <h3>龐克</h3>
+            <p class="introduction">
+                龐克搖滾把搖滾樂帶回了它的出發點—三個和弦與簡單的旋律，它將這一切演奏得比以往所有搖滾風格更加喧鬧、快速和粗糙。幾乎同時在大西洋的兩岸，年輕的樂隊們開始放棄對主流硬搖滾的追求，剝去繁複的音響把它帶回到最本質的層面。
+            </p>
+            <h5 style="margin-top:150px;" class="octopus">" dabue37g "</h5>
+            <p class="octopus">
+                翻譯：<br>
+                我超喜歡龐克的<br>
+                Ramones就是經典！<br>
+            </p>
+            <h4 class="hedgedog">" ⴼⵏⴽⵣⵍⴰⵃⵀⴱ "</h4>
+            <p class="hedgedog">
+                翻譯：<br>
+                就是要做自己啦
+            </p>
+        </div>
+        <div class="p02">
+            <h2>1980<img class="logo" src="img/logo.png"></h2>
+            <h3>後龐克</h3>
+            <h4 style="margin-top:150px;" class="hedgedog">" ⴼⵊⴽⵣⴼⵅ "</h4>
+            <p class="hedgedog">
+                翻譯：<br>
+                It's post-punk time!
+            </p>
+            <p style="margin-top:100px;" class="introduction">
+                後龐克（Post-punk）源自1970年代的搖滾樂運動，隨著1970年代中期，龐克搖滾風行的年代。這種音樂類型保持他們在龐克運動的根源，但更為內向、複雜與實驗性。
+            </p>
+            <h5 style="margin-top:200px;" class="octopus">"7shbewbht6ifo3<br>3jof2h676vog"</h5>
+            <p class="octopus">
+                這種類型結合了Krautrock（尤其是在於合成器的使用與重複樂曲）、牙買加的Dub音樂（尤其是貝斯）、美國的放克、實驗，更加入了跟傳統龐克完全相反的迪斯可，太酷了！
+            </p>
+        </div>
+        <div class="p03">
+            <h2>1980<img class="logo" src="img/logo.png"></h2>
+            <h3>硬核龐克</h3>
+            <p style="margin-top:100px;" class="introduction">
+                硬蕊龐克起源於1970年代的英國和北美。<br>
+                比最初的龐克更重，更噪，更快，旋律更加簡單更加混亂。 硬蕊龐克風格的歌曲一般比較短、快、響，內容常常涉及激進的反社會、反規則的思想。
+            </p>
+            <h5 style="margin-top:150px;" class="octopus">"fufufuffufuf"</h5>
+            <p class="octopus">
+                啊啊啊啊啊～～
+            </p>
+            <h4 style="margin-top:50px;" class="hedgedog">" ⴱⵍⵙⴻⴻⵛⵙⴷ "</h4>
+            <p class="hedgedog">
+                不是亂叫就是hardcore好嗎= =<br>
+                除了喊叫反覆的呼喊，也會使用口語的韻文<br>
+                你聽！你有沒有聽出吉他手運用獨奏和groove，刷出的反饋與那種不和諧的噪音？！
+            </p>
+            <h5 style="margin-top:150px;" class="octopus">" no2i3djbihbfe "</h5>
+            <p class="octopus">
+                我也想像他們一樣穿一堆金屬和徽章在身上！超帥的！！
+            </p>
+        </div>
+        <div class="p04">
+            <h2>1980末<img class="logo" src="img/logo.png"></h2>
+            <h3>油漬搖滾</h3>
+            <h4 style="margin-top:50px;" class="hedgedog">" ⴼⵊⴽⵍ "</h4>
+            <p class="hedgedog">
+                我覺得油漬搖滾蓬頭垢面的外表比較適合你啦
+            </p>
+            <p style="margin-top:100px;" class="introduction">
+                油漬搖滾在80年代末期興起，90年代初期走上了巔峰，它是硬蕊龐克、重金屬與獨立搖滾的延伸，普遍使用猛烈的破音電吉他作演出，與歌曲力度、淡漠或滿斥憂慮的歌詞形成強烈對比。
+            </p>
+            <h5 style="margin-top:200px;" class="octopus">"ghsjjshsh"</h5>
+            <p class="octopus">
+                看到沒?少瞧不起油漬搖滾了!
+            </p>
+            <h4 style="margin-top:150px;" class="hedgedog">" ⴻⵓⵉ:ⵡⵄⵃⵣⴻ "</h4>
+            <p class="hedgedog">
+                但油漬搖滾本來就是樂手們通過對標準龐克演奏方式的個性化和大量的運用吉他失真和回饋效果達到使聲音「變髒」的目的，我才沒有歧視哩
+            </p>
+        </div>
+        <div class="p05">
+            <h2>1990<img class="logo" src="img/logo.png"></h2>
+            <h3>流行龐克</h3>
+            <p style="margin-top:100px;" class="introduction">
+                以往龐克音樂的歌詞演繹內容由無意識，到諷刺社會，轉變成關於愛情、朋友、校園生活。有樂迷認為純龐克音樂的歌詞具有深厚壓世反社會的意識。而80年代以後，部分自認龐克樂團的樂團則去除了此種特色，於是這種習慣使到龐克音樂分支成為「流行龐克」。
+            </p>
+            <img id="planet02" src="img/planet03.png">
+            <h5 style="margin-top:200px;" class="octopus">" 3y8hxgry "</h5>
+            <p class="octopus">
+                大家最常聽的應該都是流行龐克吧
+            </p>
+            <h4 style="margin-top:150px;" class="hedgedog">" ⵊⵛ:ⵃⴻⴰⴽⵊⵍ "</h4>
+            <p class="hedgedog">
+                對啊！怎麼可能沒聽過Green Day和Sum 41
+            </p>
+            <h5 style="margin-top:100px;" class="octopus">" dbu3jb3b "</h5>
+            <p class="octopus">
+                還有Simple plan啊!真的是講都講不完
+            </p>
+        </div>       
+    </div>
+</div>
+
+
+<footer>
+    <a href="metal.html"><img id="direction" src="img/direction2.png"></a>
+	<div id="Footer">
+		<div class="footerWord">
+        <h6>Contributors</h6>
+        </div>
+    <div>
+        <img src="img/water.jpg" id="member" height="200" width="200">
+        <img src="img/hyades.jpg" id="member" height="200" width="200">
+        <img src="img/jjpin.jpg" id="member" height="200" width="200">
+        <img src="img/martha.jpg" id="member" height="200" width="200">
+        <img src="img/wei.jpg" id="member" height="200" width="200">
+    </div>
+    <div>
+        <h6>Copyright © 2016 Web Team All rights reserved.</h6>
+    </div>
+	</div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="punk.js"></script>
 </body>
 </html>

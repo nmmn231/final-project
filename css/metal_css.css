@@ -1,6 +1,9 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
 body{
-	background-image: url("bg.jpg");
+	background-image: url("bg2.jpg");
   width: 1366px;
+  font-family: 'cwTeXHei', sans-serif;
 }
 *{
         padding:0;
@@ -13,44 +16,183 @@ body{
   top: 50px;
   left: 450px;
 }
+.logo{
+  width: 30px;
+  padding-left: 10px;
+}
 #planet02{
   width: 500px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 #blurred{
   opacity: 0.8;
 }
+#metalgod{
+  width: 230px;
+  margin: 300px 0 0 900px;
+}
+
+/* 文字設定 */
+h1{
+  color: yellow;
+  font-size: 3em;
+  padding: 100px 0 0 350px;
+}
+h2{
+  font-size: 1.8em;
+  color: lightgrey;
+}
+h3{
+  color: white;
+  font-size: 2.7em;
+}
+h4{
+  color: #CC9B66;
+  font-size: 1.8em;
+}
+h5{
+  color: #6ACCBB;
+  font-size: 1.8em;
+}
+p{
+  color: white;
+  width: 250px;
+  line-height: 1.7em;
+}
+hr{
+  width: 250px;
+  margin: 10px 0 10px 0;
+}
+
+/*  文字位置  */
+.genre-title{
+  width: 500px;
+  padding: 30px 0 0 20px;
+}
+#p01-1{
+  padding: 100px 0 0 70px;
+}
+#p01-2{
+  padding: 100px 0 0 950px;
+}
+#p01-3{
+  padding: 300px 0 0 70px;
+}
+#p02-1{
+  padding: 100px 0 0 950px;
+}
+#p02-2{
+  padding: 300px 0 0 70px;
+}
+#p03-1{
+  padding: 100px 0 0 950px;
+}
+#p03-2{
+  padding: 300px 0 0 70px;
+}
+#p03-3{
+  padding: 70px 0 0 950px;
+}
+#p03-4{
+  padding: 300px 0 0 70px;
+}
+#p03-5{
+  padding: 70px 0 0 950px;
+}
+#p04-1{
+  padding: 100px 0 0 950px;
+}
+#p04-2{
+  padding: 300px 0 0 70px;
+}
+#p04-3{
+  padding: 70px 0 0 950px;
+}
+#p05-1{
+  padding: 100px 0 0 950px;
+}
+#p05-2{
+  padding: 300px 0 0 70px;
+}
+#p05-3{
+  padding: 70px 0 0 950px;
+}
+#p06-1{
+  padding: 100px 0 0 950px;
+}
+#p06-2{
+  padding: 300px 0 0 70px;
+}
+#p06-3{
+  padding: 70px 0 0 950px;
+}
+#p07-1{
+  padding: 300px 0 0 950px;
+}
+#p08-1{
+  padding: 100px 0 0 70px;
+}
+#p08-2{
+  padding: 100px 0 0 950px;
+}
+#p08-3{
+  padding: 300px 0 0 70px;
+}
+
 
 /*    插入背景圖片    */
+    .p00{
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:450vh;
+    }
     .p01{
         background-size:cover;
         background-repeat: no-repeat;
-        height:100vh;
+        height:300vh;
     }
     .p02{
         background-size:cover;
         background-repeat: no-repeat;
-        height:100vh;
+        height:150vh;
     }
     .p03{
         background-size:cover;
         background-repeat: no-repeat;
-        height:100vh;
+        height:350vh;
     }
     .p04{
         background-size:cover;
         background-repeat: no-repeat;
-        height:100vh;
+        height:200vh;
     }
     .p05{
         background-size:cover;
         background-repeat: no-repeat;
-        height:100vh;
+        height:200vh;
+    }
+    .p06{
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:200vh;
+    }
+    .p07{
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:150vh;
+    }
+    .p08{
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:250vh;
     }
     .content{
         margin-left: 40px;
     }
 /* 插入導覽列 */
+    .con{
+      display: flex;
+    }
     .nav{
         background-color: rgb(25,25,112);
         width:40px;
@@ -59,24 +201,37 @@ body{
         left:0px;
         cursor:pointer;
     }
-    li{
-        width:15px;
-        height:15px; 
-        margin: 10px;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 1px 1px 1px rgba(0,0,0,0.5) inset,-1px -1px 1px rgba(0,0,0,0.5) inset;
-        list-style-type: none;
+    #sidebar{
+      margin: 11.8px 5px 11.8px 5px;
     }
-    h1{
-        font-size:60px;
-        color:ghostwhite;
-        text-shadow:0px 0px 15px black;
+    .flexbox{
+      display: flex;
+    }
+    .dot{
+      -webkit-flex: initial;
+              flex: initial;
+      width: 20px;
+    }
+    .text{
+      font-size: 1em;
+      -webkit-flex: 1;
+              flex: 1;
+      width: 100px;
+      display: none;
+    }
+    #player{
+      width: 115px;
+    }
+    .demo{
+      margin-top: 80px;
+      padding-bottom: 160px;
+      display: none;
     }
     #volume{
-        margin: 50px 5px 0px auto;
-        padding-right: 3px;
-        padding-bottom: 50px;
+      margin-left: 5px;
+      margin-top: 80px;
+      padding-bottom: 160px;
+      display: block;
     }
     #hamburger{
     	margin-left: 10px;
@@ -90,9 +245,9 @@ body{
 
 #nav-icon1 {
   width: 30px;
-  height: 25px;
+  height: 60px;
   position: relative;
-  margin: 50px 5px 20px auto;
+  margin: 100px 5px 20px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -156,15 +311,24 @@ body{
   transform: rotate(-135deg);
 }
 /* Footer */
-    #Footer{
-        height: 120px;
-        position: relative;
-        margin-top: 120px;
-        background-color: rgb(128,138,135);
-    }
-    #but{
-        width:33%;
-    }
-    .footerWord{
-    	color: white;
-    }
+#Footer{
+  background-color: black;
+  opacity: 0.7;
+}
+#direction{
+  height: 200px;
+  width: 210px;
+  position: relative;
+  left: 1100px;
+}
+#member{
+    margin-left: 50px;
+    -webkit-filter:grayscale(1);
+}
+.footerWord{
+  font-size: 50px;
+}
+h6{
+  color: white;
+  text-align: center;
+}

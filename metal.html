@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="audioplayer.css">
     <link rel=stylesheet type="text/css" href="css/metal_css.css">
     <title>Roll the Rock Map</title>
 </head>
@@ -23,42 +25,227 @@
                     <h4>曲風地圖</h4>
                 </a>
                 
+             </div>
+            <div class="flexbox">
+                <div class="dot">
+                    <img src="img/circle.png" class="sidebar1" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar2" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar3" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar4" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar5" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar6" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar7" id="sidebar">
+                    <img src="img/whitecircle.png" class="sidebar8" id="sidebar">
+                </div>
+                <div class="text">
+                    <p>傳統重金屬</p><br>
+                    <p>NWOBHM英倫新浪潮</p><br>
+                    <p>鞭笞金屬</p><br>
+                    <p>力量金屬</p><br>
+                    <p>死亡金屬</p><br>
+                    <p>黑金屬</p><br>
+                    <p>Nu-Metal新金屬</p><br>
+                    <p>當代金屬樂</p>
+                </div>
             </div>
-            <li style="background-color:#25CFE0" class="sidebar"></li>
-            <li class="sidebar"></li>
-            <li class="sidebar"></li>
-            <li class="sidebar"></li>
-            <li class="sidebar"></li>
-            <img src="img/volume.png" width="30" height="30" id="volume">
         </ul>
+    <img src="img/volume.png" width="30" height="30" id="volume">
+
+            <div id="main">
+                <div class="demo">
+                    <audio id="player" preload="auto" controls>
+                        <source src="music/Metal1.mp3">
+                    </audio>
+                    
+                    <script>
+                    $(function() { 
+                        $('audio').audioPlayer();
+                    });
+                    </script>
+                </div>
+            </div>
     </nav>
     <img class="character" src="img/character01.png">
     <div class="content">
-        <div class="p01"><h1>樂風1</h1></div>
-        <div class="p02"><h1>樂風2</h1></div>
+        <div class="p00">
+            <h1 class="blink">警告！即將進入金屬亂流層！</h1>
+            <img id="blurred" src="img/blurred.png">
+        </div>
+        <div class="p01">
+            <div class="genre-title">
+                <h2>1970初<img class="logo" src="img/logo.png"></h2>
+                <h3>傳統重金屬</h3>
+            </div>
+            <div id="p01-1">
+                <p>傳統重金屬是以藍調與硬搖滾(hard rock)為根基，將音樂越變越重，而逐漸發展出重金屬的雛型。其中三大元老是Led Zeppelin, Deep Purple, Black Sabbath。
+                </p>
+            </div>
+            <div id="p01-2">
+                <h4>" ⴼⴽⵇⵍⵣⵎⵀⵓⵙⵊ "</h4>
+                <p><br>翻譯：<br>欸，你知不知道？Dio(Rainbow, Black Sabbath)是搖滾手勢發明者，他用他的高亢嗓音影響力量金屬。</p>
+            </div>
+            <div id="p01-3">
+                <h5>" fi4wlfqfkls7)) "</h5>
+                <p><br>翻譯：<br>哈哈哈這我當然懂！我還知道Judas Priest 被稱為金屬上帝，褪去藍調色彩，強化金屬力道，創造皮衣Dress Code。</p>
+            </div>
+            <img id="metalgod" src="img/metalgod.png">
+        </div>
+        <div class="p02">
+            <div class="genre-title">
+                <h2>1970末<img class="logo" src="img/logo.png"></h2>
+                <h3>NWOBHM英倫新浪潮</h4>
+            </div>
+            <div id="p02-1">
+                <p>背景: 西方經濟衰退、青年工人階級失業與貧窮接替衰落的龐克風潮，融合龐克元素與精神壯大金屬聲勢，為80年代的多樣發展奠基。
+                </p>
+            </div>
+            <div id="p02-2">
+                <p>這時的代表性樂團有：Diamond Head，成功打入主流的Iron Maiden、def leppard，以及逐漸發展出極端化的風格，影響黑金屬與死亡金屬的Venom，            
+                </p>
+            </div>
+        </div>
         <img id="planet02" src="img/planet02.png">
-        <div class="p03"><h1>樂風3</h1></div>
-        <img id="blurred" src="img/blurred03.png">
-        <div class="p04"><h1>樂風4</h1></div>
-        <div class="p05"><h1>樂風5</h1></div>       
+        <div class="p03">
+            <div class="genre-title">
+                <h2>1980初<img class="logo" src="img/logo.png"></h2>
+                <h3>鞭笞金屬</h4>
+            </div>
+            <div id="p03-1">
+                <h5>" #&*JK)#&%wfqvv "</h5>
+                <p><br>翻譯：<br>這個時期可有趣了，Dress Code是爆炸長捲髮、緊牛仔褲、子彈皮帶，帥氣臉蛋。酷吧！</p>
+            </div>
+            <div id="p03-2">
+                <h4>" ⵣⴼⵊⴽⵍⵣⴰⵃⵃ "</h4>
+                <p><br>翻譯：<br>難怪你要打扮得這麼可笑。我都替你感到不好意思了。</p>
+            </div>
+            <div id="p03-3">
+                <p>鞭笞金屬承接新浪潮精神，再次強化曲風力道，強調節奏強烈的樂句(riff)與高速solo
+                與主流市場的華麗金屬相對(glam metal)，在1980後期逐漸打入主流。</p>
+                <hr>
+                <p>三大地區各自發展出不同特色的鞭金:<br>
+                舊金山灣區(四大鞭金)：Metallica, Megadeth, Slayer, Anthrax<br>
+                歐洲(德三鞭): Kreator, Sodom, Destruction<br>
+                南美: sepultura最為知名
+                </p>
+            </div>
+            <div id="p03-4">
+                <p>當時的代表樂團有：<br><br>
+                    Metallica: 成為最商業成功的樂團<br>
+                    Slayer,Kreator: 殘暴風格啟蒙了死亡金屬與極限金屬<br>
+                    Sodom: 晦暗的音色與撒旦主題啟蒙黑金屬<br>
+                </p>
+            </div>
+            <div id="p03-5">
+                <h5>" gjkl9YUEI3 "</h5>
+                <p><br>翻譯：<br>據說這時候，喝酒吃藥成為了他們的興趣嗜好。</p>
+            </div>
+        </div>
+        <div class="p04">
+            <div class="genre-title">
+                <h2>1980<img class="logo" src="img/logo.png"></h2>
+                <h3>力量金屬</h4>
+            </div>
+            <div id="p04-1">
+                <p>力量金屬受Iron Maiden與Judas Priest影響，曲風融入民謠與古典元素，強調一個浪漫史詩感。特色是高亢的唱腔，與充滿技巧的吉他solo。</p>
+            </div>
+            <div id="p04-2">
+                <h5>" gjkl9YUEI3 "</h5>
+                <p><br>翻譯：<br>那這個時期有什麼樣的代表樂團呢？</p>
+            </div>
+            <div id="p04-3">
+                <h4>" ⵣ,ⴱⵍⴻⵣⵯⵎⵇ "</h4>
+                <p><br>翻譯：<br>這時候啊，美國有Manowar，歐洲則有Helloween, Gamma Ray</p>
+            </div>
+        </div>
+        <div class="p05">
+            <div class="genre-title">
+                <h2>1980<img class="logo" src="img/logo.png"></h2>
+                <h3>死亡金屬</h4>
+            </div>
+            <div id="p05-1">
+                <h4>" ⵊⴼⴽⵇⵍⵣⵎⴻⴼⴳ "</h4>
+                <p><br>翻譯：<br>死亡金屬起源於佛羅里達，受到Slayer等鞭金樂團影響，褪去鞭金的帥氣元素，專走粗殘血腥路線</p>
+            </div>
+            <div id="p05-2">
+                <h5>" uieVKNKOwVS3 "</h5>
+                <p><br>翻譯：<br>天啊！聽起來好可怕喔...</p>
+            </div>
+            <div id="p05-3">
+                <p>代表樂團: <br>
+                美國: death, morbid saint<br>
+                斯堪地那維亞亦發展出自己的死金圈，並逐漸發展出旋律死亡金屬風格</p>
+            </div>
+        </div> 
+        <div class="p06">
+            <div class="genre-title">
+                <h2>1980末<img class="logo" src="img/logo.png"></h2>
+                <h3>黑金屬</h4>
+            </div>
+            <div id="p06-1">
+                <p>黑金屬發源於北歐地區，主要受到Venom影響，以反基督為中心思想。</p>
+            </div>
+            <div id="p06-2">
+                <h4>" ⴼⵊⵣⵎⵖ,ⵡ;ⴻⵉ "</h4>
+                <p><br>翻譯：<br>此時期的Dress Code是離子燙黑長直，屍妝，全身黑漆漆(要把袖子剪掉)。</p>
+            </div>
+            <div id="p06-3">
+                <h5>" 289gjweklgg2 "</h5>
+                <p><br>翻譯：<br>可怕的是，他們會燒教堂以及殺人...</p>
+            </div>
+        </div>  
+        <div class="p07">
+            <div class="genre-title">
+                <h2>1990<img class="logo" src="img/logo.png"></h2>
+                <h3>Nu-Metal新金屬</h4>
+            </div>
+            <div id="p07-1">
+                <p>在90年代另類搖滾風潮後，融合饒舌、DJ、Grunge等新元素進入因為太主流，不為許多老派金屬樂迷認可</p>
+            </div>
+        </div>  
+        <div class="p08">
+            <div class="genre-title">
+                <h2>00- Present<img class="logo" src="img/logo.png"></h2>
+                <h3>當代金屬樂</h4>
+            </div>
+            <div id="p08-1">
+                <p>金屬樂發展進入恆定期，因為線上音樂的迅速傳播，各種樂風都有相對穩定的客群與愛好者。有些樂團主張復興老派的風格，有些樂團則致力於融入新元素或曲風的結合。</p>
+            </div>
+            <div id="p08-2">
+                <h5>" ru2kjdgalg "</h5>
+                <p><br>翻譯：<br>像是老派鞭金，就有Evile做代表。</p>
+            </div>
+            <div id="p08-3">
+                <h4>" ⴰⵢⴼⵊⴽⵣⴳ "</h4>
+                <p><br>翻譯：<br>而畸胎樂風，則有Vektor。</p>
+            </div>
+        </div>        
     </div>
 </div>
 
 
 <footer>
-	<div id="Footer">
-        <div id="optionButton">
-            <input type="button" value="曲風1" id="but"></input>        
-            <input type="button" value="曲風2" id="but"></input>        
-            <input type="button" value="曲風3" id="but"></input>           
+    <a href="punk.html"><img id="direction" src="img/direction.png"></a>
+    <div id="Footer">
+        <div class="footerWord">
+        <h6>Contributors</h6>
         </div>
-		<img src="img/water.jpg" width="70" height="70" id="water">
-		<p class="footerWord">這裡是版權聲明</p>
-	</div>
+    <div>
+        <img src="img/water.jpg" id="member" height="200" width="200">
+        <img src="img/hyades.jpg" id="member" height="200" width="200">
+        <img src="img/jjpin.jpg" id="member" height="200" width="200">
+        <img src="img/martha.jpg" id="member" height="200" width="200">
+        <img src="img/wei.jpg" id="member" height="200" width="200">
+    </div>
+    <div>
+        <h6>Copyright © 2016 Web Team All rights reserved.</h6>
+    </div>
+    </div>
 </footer>
 
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="page.js"></script>
+<script src="metal.js"></script>
+<p id="stat"><script type="text/javascript" src="/js/tongji.js"></script></p>
 </body>
 </html>

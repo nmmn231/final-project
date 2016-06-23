@@ -1,193 +1,845 @@
-<meta charset="utf-8">
-
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
 <html>
 <head>
-	<title>Rock Map</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Rock Map</title>
+
+
+<script type="text/javascript" src="highslide/highslide/highslide-with-gallery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="highslide/highslide/highslide.css" />
+
+
+<script type="text/javascript">
+hs.graphicsDir = 'highslide/highslide/graphics/';
+hs.align = 'center';
+hs.transitions = ['expand', 'crossfade'];
+hs.outlineType = 'rounded-white';
+hs.fadeInOut = true;
+hs.numberPosition = 'caption';
+hs.dimmingOpacity = 0.75;
+
+// Add the controlbar
+if (hs.addSlideshow) hs.addSlideshow({
+	//slideshowGroup: 'group1',
+	interval: 5000,
+	repeat: false,
+	useControls: true,
+	fixedControls: 'fit',
+	overlayOptions: {
+		opacity: .75,
+		position: 'bottom center',
+		hideOnMouseOut: true
+	}
+});
+</script>
+
 </head>
-<body bgcolor="black">
-	<embed src="mapimg/map.svg" type="image/svg+xml" width="1240" height="698" />
-	<style type="text/css">width: 100%; height: 100%</style>
+
+<body>
+	<div class="bg">
+        <img src="img/planet-14.png">
+    </div>
+
+    <a href="index.html" class="myButton">Back to Journey</a>
+
+	<div class="highslide-gallery">
+		<a id="thumb1" style="top:232px; left:150px; position:absolute;" href="img/Metal/black sabbath - paranoid 1970.jpg" class="highslide" onclick="return hs.expand(this, { slideshowGroup: 1 } )">
+			<img src="img/planet-01.png" title="傳統重金屬" width="80" height="80"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1970初 傳統重金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/hkXHsK4AQPs" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Black Sabbath</br>
+			<strong>專輯：</strong>Paranoid<i>(1970)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/Metal/Deep Purple - Machine Head 1972.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 1})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 傳統重金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/4BYmhamWgHo" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Deep Purple</br>
+				<strong>專輯：</strong>Machine Head<i>(1972)</i>
+			</div>
+
+			<a href="img/Metal/Judas Priest - Sad Wings of Destiny 1976.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 1})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 傳統重金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/Xu0z1csRnKQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Judas Priest</br>
+				<strong>專輯：</strong>Sad Wings of Destiny<i>(1976)</i>
+			</div>
+
+			<a href="img/Metal/Led Zeppelin - Led Zeppelin IV 1971.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 1})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 傳統重金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/Xu0z1csRnKQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Led Zeppelin</br>
+				<strong>專輯：</strong>Led Zeppelin IV <i>(1971)</i>  
+			</div>
+
+			<a href="img/Metal/Motörhead - overkill 1979.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 1})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 傳統重金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/3VNUyjRRjxM" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Motörhead</br>
+				<strong>專輯：</strong>Overkill <i>(1979)</i>
+			</div>
+
+			<a href="img/Metal/Van Halen - Van Halen 1978.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 1})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 傳統重金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/SwYN7mTi6HM" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Van Halen</br>
+				<strong>專輯：</strong>Van Halen <i>(1978)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:300px; left:150px; position:absolute;">傳統重金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb2" style="top:120px; left:433px; position:absolute;" href="img/NWOBHM/Angel Witch - Angel Witch 1980.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 2} )">
+			<img src="img/planet-02.png" title="英倫新浪潮" width="60" height="60"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1970末 NWOBHM 英倫新浪潮</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/YXH_9707PLc" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Angel Witch</br>
+			<strong>專輯：</strong>Angel Witch <i>(1980)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/NWOBHM/Dedringer  Second Arising - 1983.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+			<div class="highslide-caption">
+				<strong>1970末 NWOBHM 英倫新浪潮</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/3ogMPQalaXQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Dedringer</br>
+				<strong>專輯：</strong>Second Arising <i>(1983)</i>
+			</div>
+
+			<a href="img/NWOBHM/Iron Maiden - Iron Maiden 1980.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+			<div class="highslide-caption">
+				<strong>1970末 NWOBHM 英倫新浪潮</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/X4bgXH3sJ2Q" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Iron Maiden</br>
+				<strong>專輯：</strong>Iron Maiden <i>(1980)</i>
+			</div>
+
+			<a href="img/NWOBHM/Saxon - Denim and Leather 1981.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+			<div class="highslide-caption">
+				<strong>1970末 NWOBHM 英倫新浪潮</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/xy_Clys4ul4" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Saxon</br>
+				<strong>專輯：</strong>Denim and Leather <i>(1981)</i>
+			</div>
+
+			<a href="img/NWOBHM/Tank -  Filth Hounds of Hades 1982.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+			<div class="highslide-caption">
+				<strong>1970末 NWOBHM 英倫新浪潮</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/2BDUEHWOWwY" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Tank</br>
+				<strong>專輯：</strong>Filth Hounds of Hades <i>(1982)</i>
+			</div>
+
+			<a href="img/NWOBHM/venom - black metal 1982.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb2', slideshowGroup: 2 })"></a>
+			<div class="highslide-caption">
+				<strong>1970末 NWOBHM 英倫新浪潮</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/fHmzFVDjVnM" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Venom</br>
+				<strong>專輯：</strong>Black Metal <i>(1982)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:170px; left:425px; position:absolute;">英倫新搖滾</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb3" style="top:105px; left:735px; position:absolute;" href="img/thrash/Exodus - Bonded by Blood 1985.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 3} )">
+			<img src="img/planet-03.png" title="鞭笞金屬" width="50" height="50"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1980初 鞭笞金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/tTdGnKB8j7U" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Exodus</br>
+			<strong>專輯：</strong>Bonded by Blood <i>(1985)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/thrash/Mekong Delta -  The Music of Erich Zann 1988.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb3', slideshowGroup: 3 })"></a>
+			<div class="highslide-caption">
+				<strong>1980初 鞭笞金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/7nIF2G_Yjco" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Mekong Delta</br>
+				<strong>專輯：</strong>The Music of Erich Zann <i>(1988)</i>
+			</div>
+
+			<a href="img/thrash/Metallica_-_Master_of_Puppets_1986.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb3', slideshowGroup: 3 })"></a>
+			<div class="highslide-caption">
+				<strong>1980初 鞭笞金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/xnKhsTXoKCI" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Metallica</br>
+				<strong>專輯：</strong>Master of Puppets <i>(1986)</i>
+			</div>
+
+			<a href="img/thrash/Sepultura - Beneath the Remain 1989.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb3', slideshowGroup: 3 })"></a>
+			<div class="highslide-caption">
+				<strong>1980初 鞭笞金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/rLvnqKOtJaw" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Sepultura</br>
+				<strong>專輯：</strong>Beneath the Remain <i>(1989)</i>
+			</div>
+
+			<a href="img/thrash/Slayer -  Reign in Blood 1986.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb3', slideshowGroup: 3 })"></a>
+			<div class="highslide-caption">
+				<strong>1980初 鞭笞金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/yPGKlb8hklQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Slayer</br>
+				<strong>專輯：</strong>Reign in Blood <i>(1986)</i>
+			</div>
+
+			<a href="img/thrash/Sodom - Persecution Mania 1987.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb3', slideshowGroup: 3 })"></a>
+			<div class="highslide-caption">
+				<strong>1980初 鞭笞金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/6yHzfSQKQhg" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Sodom</br>
+				<strong>專輯：</strong>Persecution Mania <i>(1987)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:143px; left:727px; position:absolute;">鞭笞金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb4" style="top:180px; left:970px; position:absolute;" href="img/power-metal/Gamma-Ray_land-of-the-tree_1995.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 4} )">
+			<img src="img/planet-04.png" title="力量金屬" width="50" height="50"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1980 力量金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/Pm8JvqFK_3A" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Gamma Ray</br>
+			<strong>專輯：</strong>Land of the Tree <i>(1995)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/power-metal/Helloween_Keeper-Of-The-Seven-Keys-Part-II_1988.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 4 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 力量金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/pJaJ8G2xEHw" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Helloween</br>
+				<strong>專輯：</strong>Keeper of the Seven Keys Part II <i>(1988)</i>
+			</div>
+
+			<a href="img/power-metal/Kamelot_the-black-halo_2005.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 4 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 力量金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/7mrrylcds9U" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Kamelot</br>
+				<strong>專輯：</strong>The Black Halo <i>(2005)</i>
+			</div>
+
+			<a href="img/power-metal/manowar_kings-of-metal_1988.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 4 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 力量金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/naUVmyxjPYo" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Manowar</br>
+				<strong>專輯：</strong>Kings of Metal <i>(1988)</i>
+			</div>
+
+			<a href="img/power-metal/SymphonyX_the-divine-wings-of-tragedy_1997.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 4 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 力量金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/S2CISHqGzCg" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Symphony X</br>
+				<strong>專輯：</strong>The Divine Wings of Tragedy <i>(1997)</i>
+			</div>
+
+			<a href="img/power-metal/Wintersun_wintersun_2004.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 4 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 力量金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/hvQo95Lk2Uc" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Wintersun</br>
+				<strong>專輯：</strong>Wintersun <i>(2004)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:217px; left:963px; position:absolute;">力量金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb5" style="top:433px; left:1070px; position:absolute;" href="img/Death_Metal/Autopsy  Mental Funeral 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 5} )">
+			<img src="img/planet-05.png" title="死亡金屬" width="60" height="60"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1980 死亡金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/_IpLYZkUrZA" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Autopsy</br>
+			<strong>專輯：</strong>Mental Funeral <i>(1991)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/Death_Metal/Autopsy  Mental Funeral 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 5} )">/Death -  Scream Bloody Gore 1987.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 5 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 死亡金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/aHuqcVAaIN8" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Death</br>
+				<strong>專輯：</strong>Scream Bloody Gore <i>(1987)</i>
+			</div>
+
+			<a href="img/Death_Metal/Autopsy  Mental Funeral 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 5} )">/Deicide - Legion 1992.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 5 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 死亡金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/lTOVvSxzAsQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Deicide</br>
+				<strong>專輯：</strong>Legion <i>(1992)</i>
+			</div>
+
+			<a href="img/Death_Metal/Autopsy  Mental Funeral 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 5} )">/Morbid Angel  Altars of Madness 1989.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 5 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 死亡金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/6mfvSSl9L9M" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Morbid Angel</br>
+				<strong>專輯：</strong>Altars of Madness <i>(1989)</i>
+			</div>
+
+			<a href="img/Death_Metal/Autopsy  Mental Funeral 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 5} )">/Pestilence - Consuming Impulse 1989.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 5 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 死亡金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/cQc4ZKH185E" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Pestilence</br>
+				<strong>專輯：</strong>Consuming Impulse <i>(1989)</i>
+			</div>
+
+			<a href="img/Death_Metal/Autopsy  Mental Funeral 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 5} )">/Suffocation - Effigy of the Forgotten 1991.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb4', slideshowGroup: 5 })"></a>
+			<div class="highslide-caption">
+				<strong>1980 死亡金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/STFGLIK6Zy0" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Suffocation</br>
+				<strong>專輯：</strong>Effigy of the Forgotten <i>(1991)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:482px; left:1070px; position:absolute;">死亡金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb6" style="top:560px; left:860px; position:absolute;" href="img/black-metal/armagedda_only-true-believers_2003.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 6} )">
+			<img src="img/planet-06.png" title="黑金屬" width="50" height="50"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1980末 黑金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/6rrbEItfJyU" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Armagedda</br>
+			<strong>專輯：</strong>Only True Believers <i>(2003)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/black-metal/gorgoroth_under-the-sign-of-hell_1997.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 6 })"></a>
+			<div class="highslide-caption">
+				<strong>1980末 黑金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/llW9k08KyyA" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Gorgoroth</br>
+				<strong>專輯：</strong>Under the Sign of Hell <i>(1997)</i>
+			</div>
+
+			<a href="img/black-metal/immortal_at-the-heart-of-winter_1999.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 6 })"></a>
+			<div class="highslide-caption">
+				<strong>1980末 黑金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/3lrS_WaQh1M" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Immortal</br>
+				<strong>專輯：</strong>At the Heart of Winter <i>(1999)</i>
+			</div>
+
+			<a href="img/black-metal/nargaroth_herbstleyd_1998.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 6 })"></a>
+			<div class="highslide-caption">
+				<strong>1980末 黑金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/GYdcItFjPgk" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Nargaroth</br>
+				<strong>專輯：</strong>Herbstleyd <i>(1998)</i>
+			</div>
+
+			<a href="img/black-metal/mayhem_de-mysteriis-dom-sathanas_1994.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 6 })"></a>
+			<div class="highslide-caption">
+				<strong>1980末 黑金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/uZmDL_PzvdY" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Mayhem</br>
+				<strong>專輯：</strong>De Mysteriis Dom Sathanas <i>(1994)</i>
+			</div>
+
+			<a href="img/black-metal/rain-upon-the-impure_the-ruins-of-beverast_2006.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 6 })"></a>
+			<div class="highslide-caption">
+				<strong>1980末 黑金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/FA7omCUetIs" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Rain Upon the Impure</br>
+				<strong>專輯：</strong>The Ruins of Beverast <i>(2006)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:598px; left:860px; position:absolute;">黑金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb7" style="top:540px; left:425px; position:absolute;" href="img/nu-metal/Deftones_Around-The-Fur_1997.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 7} )">
+			<img src="img/planet-07.png" title="新金屬" width="70" height="70"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1990 Nu-Metal 新金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/Hv0rV0N3SrY" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Deftone</br>
+			<strong>專輯：</strong>Around The Fur <i>(1997)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/nu-metal/KoRn_KoRn_1994.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 7})"></a>
+			<div class="highslide-caption">
+				<strong>1990 Nu-Metal 新金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/cl2D7J_FL_U" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>KoRn</br>
+				<strong>專輯：</strong>KoRn <i>(1994)</i>
+			</div>
+
+			<a href="img/nu-metal/limp-bizkit_significant-other_1999.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 7})"></a>
+			<div class="highslide-caption">
+				<strong>1990 Nu-Metal 新金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/DbD3n7LMg5c" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Limp Bizkit</br>
+				<strong>專輯：</strong>Significant Other <i>(1999)</i>
+			</div>
+
+			<a href="img/nu-metal/P.O.D._Satellite_2001.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 7})"></a>
+			<div class="highslide-caption">
+				<strong>1990 Nu-Metal 新金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/dl6lucWcqjQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>P.O.D.</br>
+				<strong>專輯：</strong>Satellite <i>(2001)</i>
+			</div>
+
+			<a href="img/nu-metal/slipknot_slipknot_1999.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 7})"></a>
+			<div class="highslide-caption">
+				<strong>1990 Nu-Metal 新金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/5abamRO41fE" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Slipknot</br>
+				<strong>專輯：</strong>Slipknot <i>(1999)</i>
+			</div>
+
+			<a href="img/nu-metal/system-of-a-dow_toxicity_1998.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb6', slideshowGroup: 7})"></a>
+			<div class="highslide-caption">
+				<strong>1990 Nu-Metal 新金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/iywaBOMvYLI" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>System of A Down</br>
+				<strong>專輯：</strong>Toxicity <i>(1998)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:597px; left:435px; position:absolute;">新金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb8" style="top:420px; left:145px; position:absolute;" href="img/modern/Agalloch - Marrow of the Spirit 2010.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 8} )">
+			<img src="img/planet-08.png" title="現代金屬" width="90" height="90"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>現代金屬</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/m3PV3orbHfE" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Agalloch</br>
+			<strong>專輯：</strong>Marrow of the Spirit <i>(2010)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/modern/Dream Theather - systematic chaos 2007.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb8', slideshowGroup: 8})"></a>
+			<div class="highslide-caption">
+				<strong>現代金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/7QWF-B6Gd68" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Dream Theather</br>
+				<strong>專輯：</strong>Systematic chaos <i>(2007)</i>
+			</div>
+
+			<a href="img/modern/Meshuggah - Catch Thirtythree 2005.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb8', slideshowGroup: 8})"></a>
+			<div class="highslide-caption">
+				<strong>現代金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/weiXdYGuawY" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Meshuggah</br>
+				<strong>專輯：</strong>Catch Thirty Three <i>(2005)</i>
+			</div>
+
+			<a href="img/modern/Obscura - Omnivium 2011.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb8', slideshowGroup: 8})"></a>
+			<div class="highslide-caption">
+				<strong>現代金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/3ypNM7zfykI" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Obscura</br>
+				<strong>專輯：</strong>Omnivium <i>(2011)</i>
+			</div>
+
+			<a href="img/modern/Trivium - In Waves 2011.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb8', slideshowGroup: 8})"></a>
+			<div class="highslide-caption">
+				<strong>現代金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/Uwcul7Tcu4k" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Trivium</br>
+				<strong>專輯：</strong>In Waves <i>(2011)</i>
+			</div>
+
+			<a href="img/modern/Vektor - Black Future 2009.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb8', slideshowGroup: 8})"></a>
+			<div class="highslide-caption">
+				<strong>現代金屬</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/FADd5rAznOc" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Vektor</br>
+				<strong>專輯：</strong>Black Future <i>(2009)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:485px; left:151px; position:absolute;">現代金屬</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb9" style="top:430px; left:720px; position:absolute;" href="img/punk/iggy&the-stooges_raw-power_1973.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 9} )">
+			<img src="img/planet-09.png" title="龐克" width="55" height="55"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1970初 龐克</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/IFe0OfEtP2w" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Iggy And The Stooges</br>
+			<strong>專輯：</strong>Raw Power <i>(1973)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/punk/MC5_kick-out-the-jams_1969.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/yvJGQ_piwI0" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>MC5</br>
+				<strong>專輯：</strong>Kick Out The Jams <i>(1969)</i>
+			</div>
+
+			<a href="img/punk/Ramones_Sheena-Is-a-Punk-Rocker_1977.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/7vNrZcs44QU" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Ramones</br>
+				<strong>專輯：</strong>Sheena Is A Punk <i>(1977)</i>
+			</div>
+
+			<a href="img/punk/SEX-PISTOLS_nevermind-the-bollocks_1977.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/vG2ZKxKVO_c" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>SEX PISTOLS</br>
+				<strong>專輯：</strong>Nevermind the Bollock <i>(1977)</i>
+			</div>
+
+			<a href="img/punk/the-clash_super-black-market-clash_1980.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/sqRwLey8np4" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Clash</br>
+				<strong>專輯：</strong>Super Black Market Clash <i>(1980)</i>
+			</div>
+
+			<a href="img/punk/the-ramones_self-titled_1976.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 9})"></a>
+			<div class="highslide-caption">
+				<strong>1970初 龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/K56soYl0U1w" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Ramones</br>
+				<strong>專輯：</strong>Self Titled <i>(1976)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:474px; left:731px; position:absolute;">龐克</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb10" style="top:435px; left:540px; position:absolute;" href="img/post_punk/bauhaus_bela-lugosi's-dead_1982.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 10} )">
+			<img src="img/planet-10.png" title="後龐克" width="50" height="50"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1970末 後龐克</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/OKRJfIPiJGY" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Bauhaus</br>
+			<strong>專輯：</strong>Bela Lugosi's Dead <i>(1982)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/post_punk/echothe-bunnymen_peoplearestrange_1987.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 10})"></a>
+			<div class="highslide-caption">
+				<strong>1970末 後龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/KxzhiyQj6zI" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Echothe Bunnymen</br>
+				<strong>專輯：</strong>People Are Strange <i>(1987)</i>
+			</div>
+
+			<a href="img/post_punk/siouxsie-and-the-banchees_peepshow_1988.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 10})"></a>
+			<div class="highslide-caption">
+				<strong>1970末 後龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/qpcMLAOafkk" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Siouxsie And the Banchees</br>
+				<strong>專輯：</strong>Peepshow <i>(1988)</i>
+			</div>
+
+			<a href="img/post_punk/magazine_secondhand-daylight_1979.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 10})"></a>
+			<div class="highslide-caption">
+				<strong>1970末 後龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/4KHEZirNWYQ" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Magazine</br>
+				<strong>專輯：</strong>Secondhand Daylight <i>(1979)</i>
+			</div>
+
+			<a href="img/post_punk/the-fall_this-nation's-saving-grace_1985.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 10})"></a>
+			<div class="highslide-caption">
+				<strong>1970末 後龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/AwCZu9O-H0M" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Fall</br>
+				<strong>專輯：</strong>This Nation's Saving Grace <i>(1985)</i>
+			</div>
+
+			<a href="img/post_punk/the-sound_jeopardy_1980.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb9', slideshowGroup: 10})"></a>
+			<div class="highslide-caption">
+				<strong>1970末 後龐克</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/9S3mO-HimNs" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Sound</br>
+				<strong>專輯：</strong>Jeopardy <i>(1980)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:473px; left:542px; position:absolute;">後龐克</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb11" style="top:345px; left:350px; position:absolute;" href="img/hardcore_punk/Agnostic-Front_Cause-for-Alarm_1986.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 11} )">
+			<img src="img/planet-11.png" title="硬蕊" width="50" height="50"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1980 硬蕊 Hardcore Punk</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/x7YJ9L-I_W4" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Agnostic Front</br>
+			<strong>專輯：</strong>Cause for Alarm <i>(1986)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/hardcore_punk/Bad-Brains_self-titled_1982.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 11})"></a>
+			<div class="highslide-caption">
+				<strong>1980 硬蕊 Hardcore Punk</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/soBqy2XDpHg" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Bad Brains</br>
+				<strong>專輯：</strong>Self Titled <i>(1982)</i>
+			</div>
+
+			<a href="img/hardcore_punk/Minor-Threat_Complete-Discography _1990.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 11})"></a>
+			<div class="highslide-caption">
+				<strong>1980 硬蕊 Hardcore Punk</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/4lH9EV_Urxk" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Minor Threat</br>
+				<strong>專輯：</strong>Complete Discography <i>(1990)</i>
+			</div>
+
+			<a href="img/hardcore_punk/Converge_JaneDoe_2001.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 11})"></a>
+			<div class="highslide-caption">
+				<strong>1980 硬蕊 Hardcore Punk</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/efioLa0JDcY" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Converge</br>
+				<strong>專輯：</strong>Jane Doe <i>(2001)</i>
+			</div>
+
+			<a href="img/hardcore_punk/the-casualties_resistance_2012.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 11})"></a>
+			<div class="highslide-caption">
+				<strong>1980 硬蕊 Hardcore Punk</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/MxEsTY4vRVc" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Casualties</br>
+				<strong>專輯：</strong>Resistance <i>(2012)</i>
+			</div>
+
+			<a href="img/hardcore_punk/the-unseen_state-of-discontent_2005.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 11})"></a>
+			<div class="highslide-caption">
+				<strong>1980 硬蕊 Hardcore Punk</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/MJoe_7ItRBA" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Unseen</br>
+				<strong>專輯：</strong>State of Discontent <i>(2005)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:383px; left:358px; position:absolute;">硬蕊</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb12" style="top:245px; left:580px; position:absolute;" href="img/grunge/pearl-jam_ten_1991.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 12} )">
+			<img src="img/planet-12.png" title="油漬搖滾" width="60" height="60"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1980末 油漬搖滾 Grunge</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/_BqZUqeQgdw" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Pearl Jam</br>
+			<strong>專輯：</strong>Ten <i>(1991)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/grunge/screaming-trees_sweet-oblivion_1992.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 12})"></a>
+			<div class="highslide-caption">
+				<strong>1980末 油漬搖滾 Grunge</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/n3fJDItn5GU" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Screaming Trees</br>
+				<strong>專輯：</strong>Sweet Oblivion <i>(1992)</i>
+			</div>
+
+			<a href="img/grunge/soundgarden_superunknown_1994.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 12})"></a>
+			<div class="highslide-caption">
+				<strong>1980末 油漬搖滾 Grunge</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/AwdjreJKggg" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Soundgardens</br>
+				<strong>專輯：</strong>Superunknown <i>(1994)</i>
+			</div>
+
+			<a href="img/grunge/smashing-pumpkins_gish_1991.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 12})"></a>
+			<div class="highslide-caption">
+				<strong>1980末 油漬搖滾 Grunge</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/aVfWx9282y0" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Smashing Pumpkins</br>
+				<strong>專輯：</strong>Gish <i>(1991)</i>
+			</div>
+
+			<a href="img/grunge/stone-temple-pilots_purple_1994.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 12})"></a>
+			<div class="highslide-caption">
+				<strong>1980末 油漬搖滾 Grunge</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/V5UOC0C0x8Q" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Stone Temple Pilots</br>
+				<strong>專輯：</strong>Purple <i>(1994)</i>
+			</div>
+
+			<a href="img/grunge/temple-of-the-dog_self-titled_1991.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb11', slideshowGroup: 12})"></a>
+			<div class="highslide-caption">
+				<strong>1980末 油漬搖滾 Grunge</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/VUb450Alpps" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Temple of the Dog</br>
+				<strong>專輯：</strong>Self Titled <i>(1991)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:292px; left:578px; position:absolute;">油漬搖滾</p>
+
+
+	<div class="highslide-gallery">
+		<a id="thumb13" style="top:320px; left:830px; position:absolute;" href="img/punk_pop/Blink182_PantsandJacket_2001.jpg" class="highslide" 
+				onclick="return hs.expand(this,	{ slideshowGroup: 13} )">
+			<img src="img/planet-13.png" title="流行龐克" width="80" height="80"/>
+		</a>
+		<div class="highslide-caption">
+			<strong>1990 流行龐克 Punk-pop</strong></br>
+			<iframe width="30" height="30" src="https://www.youtube.com/embed/S-KAWFkf6Ms" frameborder="0" allowfullscreen></iframe></br>
+			<strong>樂團：</strong>Blink182</br>
+			<strong>專輯：</strong>Pants and Jacket <i>(2001)</i>
+		</div>
+		<div class="hidden-container">
+			<a href="img/punk_pop/greenday_dookie_1994.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb13', slideshowGroup: 13})"></a>
+			<div class="highslide-caption">
+				<strong>1990 流行龐克 Punk-pop</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/Qon-cDkH6Do" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Greenday</br>
+				<strong>專輯：</strong>Dookie <i>(1994)</i>
+			</div>
+
+			<a href="img/punk_pop/Lessthanjake_hellorockview_1998.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb13', slideshowGroup: 13})"></a>
+			<div class="highslide-caption">
+				<strong>1990 流行龐克 Punk-pop</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/ohpxYCxyLSs" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Less Than Jake</br>
+				<strong>專輯：</strong>Hello Rockview <i>(1998)</i>
+			</div>
+
+			<a href="img/punk_pop/SimplePlan_StillNotGettingAny__2004.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb13', slideshowGroup: 13})"></a>
+			<div class="highslide-caption">
+				<strong>1990 流行龐克 Punk-pop</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/wzPIjqwgAyo" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Simple Plan</br>
+				<strong>專輯：</strong>Still Not Getting Any <i>(2004)</i>
+			</div>
+
+			<a href="img/punk_pop/TheOffspring_Americana_1998.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb13', slideshowGroup: 13})"></a>
+			<div class="highslide-caption">
+				<strong>1990 流行龐克 Punk-pop</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/VrZ4sMRYimw" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>The Offspring</br>
+				<strong>專輯：</strong>Americana <i>(1998)</i>
+			</div>
+
+			<a href="img/punk_pop/Sum41_AllKillerNoFiller_2001.jpg" class="highslide" 
+				onclick="return hs.expand(this, { thumbnailId: 'thumb13', slideshowGroup: 13})"></a>
+			<div class="highslide-caption">
+				<strong>1990 流行龐克 Punk-pop</strong></br>
+				<iframe width="30" height="30" src="https://www.youtube.com/embed/JGizFLBrETA" frameborder="0" allowfullscreen></iframe></br>
+				<strong>樂團：</strong>Sum41</br>
+				<strong>專輯：</strong>All Killer No Filler <i>(2001)</i>
+			</div>
+		</div>
+	</div>
+	<p style="color:white; top:375px; left:833px; position:absolute;">流行龐克</p>
+
+
 </body>
 </html>
-
-<STYLE>
-<!--
-A.ssmItems:link {color:black;text-decoration:none;}
-A.ssmItems:hover {color:25CFE0;text-decoration:none;}
-A.ssmItems:active {color:red;text-decoration:none;}
-A.ssmItems:visited {color:orange;text-decoration:none;}
-//-->
-</STYLE>
-
-<SCRIPT> 
-<!--
-
-NS6 = (document.getElementById&&!document.all)
-IE = (document.all)
-NS = (navigator.appName=="Netscape" && navigator.appVersion.charAt(0)=="4")
-
-tempBar='';barBuilt=0;ssmItems=new Array();
-
-moving=setTimeout('null',1)
-
-function moveOut() {
-	if ((NS6||NS)&&parseInt(ssm.left)<0 || IE && ssm.pixelLeft<0) {
-		clearTimeout(moving);moving = setTimeout('moveOut()', slideSpeed);slideMenu(10)
-	}
-	else {
-		clearTimeout(moving);moving=setTimeout('null',1)
-	}
-};
-
-function moveBack() {
-	clearTimeout(moving);moving = setTimeout('moveBack1()', waitTime)
-}
-
-function moveBack1() {
-	if ((NS6||NS) && parseInt(ssm.left)>(-menuWidth) || IE && ssm.pixelLeft>(-menuWidth)) {
-		clearTimeout(moving);moving = setTimeout('moveBack1()', slideSpeed);slideMenu(-10)
-	}
-	else {
-		clearTimeout(moving);moving=setTimeout('null',1)
-	}
-}
-
-function slideMenu(num){
-	if (IE) {ssm.pixelLeft += num;}
-	if (NS||NS6) {ssm.left = parseInt(ssm.left)+num;}
-	if (NS) {bssm.clip.right+=num;bssm2.clip.right+=num;}
-}
-
-function makeStatic() {
-	if (NS||NS6) {winY = window.pageYOffset;}
-	if (IE) {winY = document.body.scrollTop;}
-	if (NS6||IE||NS) {
-		if (winY!=lastY&&winY>YOffset-staticYOffset) {
-			smooth = .2 * (winY - lastY - YOffset + staticYOffset);
-		}
-		else if (YOffset-staticYOffset+lastY>YOffset-staticYOffset) {
-			smooth = .2 * (winY - lastY - (YOffset-(YOffset-winY)));
-		}
-		else {smooth=0}
-
-		if(smooth > 0) smooth = Math.ceil(smooth);
-			else smooth = Math.floor(smooth);
-
-		if (IE) bssm.pixelTop+=smooth;
-
-		if (NS6||NS) bssm.top=parseInt(bssm.top)+smooth
-		lastY = lastY+smooth;
-		setTimeout('makeStatic()', 1)
-	}
-}
-
-function buildBar() {
-	if(barText.indexOf('<IMG')>-1) {tempBar=barText}
-	else{
-		for (b=0;b<barText.length;b++) {tempBar+=barText.charAt(b)+"<BR>"}
-	}
-	document.write('<td align="center" rowspan="100" width="'+barWidth+'" bgcolor="'+barBGColor+'" valign="'+barVAlign+'"><p align="center"><font face="'+barFontFamily+'" Size="'+barFontSize+'" COLOR="'+barFontColor+'"><B>'+tempBar+'</B></font></p></TD>')
-}
-
-function initSlide() {
-	if (NS6){
-		ssm=document.getElementById("thessm").style;bssm=document.getElementById("basessm").style;
-		bssm.clip="rect(0 "+document.getElementById("thessm").offsetWidth+" "+document.getElementById("thessm").offsetHeight+" 0)";ssm.visibility="visible";
-	}
-	else if (IE) {
-		ssm=document.all("thessm").style;bssm=document.all("basessm").style
-		bssm.clip="rect(0 "+thessm.offsetWidth+" "+thessm.offsetHeight+" 0)";bssm.visibility = "visible";
-	}
-	else if (NS) {
-		bssm=document.layers["basessm1"];
-		bssm2=bssm.document.layers["basessm2"];ssm=bssm2.document.layers["thessm"];
-		bssm2.clip.left=0;ssm.visibility = "show";
-	}
-	if (menuIsStatic=="yes") makeStatic();
-}
-
-function buildMenu() {
-	if (IE||NS6) {
-		document.write('<DIV ID="basessm" style="visibility:hidden;Position : Absolute ;Left : '+XOffset+' ;Top : '+YOffset+' ;Z-Index : 20;width:'+(menuWidth+barWidth+10)+'"><DIV ID="thessm" style="Position : Absolute ;Left : '+(-menuWidth)+' ;Top : 0 ;Z-Index : 20;" onmouseover="moveOut()" onmouseout="moveBack()">')
-	}
-	if (NS) {
-		document.write('<LAYER name="basessm1" top="'+YOffset+'" LEFT='+XOffset+' visibility="show"><ILAYER name="basessm2"><LAYER visibility="hide" name="thessm" bgcolor="'+menuBGColor+'" left="'+(-menuWidth)+'" onmouseover="moveOut()" onmouseout="moveBack()">')
-	}
-	if (NS6){
-		document.write('<table border="0" cellpadding="0" cellspacing="0" width="'+(menuWidth+barWidth+2)+'" bgcolor="'+menuBGColor+'"><TR><TD>')
-	}
-	document.write('<table border="0" cellpadding="0" cellspacing="1" width="'+(menuWidth+barWidth+2)+'" bgcolor="'+menuBGColor+'">');
-	for(i=0;i<ssmItems.length;i++) {
-		if(!ssmItems[i][3]){ssmItems[i][3]=menuCols;ssmItems[i][5]=menuWidth-1}
-		else if(ssmItems[i][3]!=menuCols)ssmItems[i][5]=Math.round(menuWidth*(ssmItems[i][3]/menuCols)-1);
-
-		if(ssmItems[i-1]&&ssmItems[i-1][4]!="no"){document.write('<TR>')}
-
-		if(!ssmItems[i][1]){
-			document.write('<td bgcolor="'+hdrBGColor+'" HEIGHT="'+hdrHeight+'" ALIGN="'+hdrAlign+'" VALIGN="'+hdrVAlign+'" WIDTH="'+ssmItems[i][5]+'" COLSPAN="'+ssmItems[i][3]+'"> <font face="'+hdrFontFamily+'" Size="'+hdrFontSize+'" COLOR="'+hdrFontColor+'"><b>'+ssmItems[i][0]+'</b></font></td>')
-		}
-		else {
-			if(!ssmItems[i][2])ssmItems[i][2]=linkTarget;
-			document.write('<TD BGCOLOR="'+linkBGColor+'" onmouseover="bgColor=\''+linkOverBGColor+'\'" onmouseout="bgColor=\''+linkBGColor+'\'" WIDTH="'+ssmItems[i][5]+'" COLSPAN="'+ssmItems[i][3]+'"><ILAYER><LAYER onmouseover="bgColor=\''+linkOverBGColor+'\'" onmouseout="bgColor=\''+linkBGColor+'\'" WIDTH="100%" ALIGN="'+linkAlign+'"><DIV ALIGN="'+linkAlign+'"><FONT face="'+linkFontFamily+'" Size="'+linkFontSize+'"> <A HREF="'+ssmItems[i][1]+'" target="'+ssmItems[i][2]+'" CLASS="ssmItems">'+ssmItems[i][0]+'</DIV></LAYER></ILAYER></TD>')
-		}
-		if(ssmItems[i][4]!="no"&&barBuilt==0){buildBar();barBuilt=1}
-		if(ssmItems[i][4]!="no"){document.write('</TR>')}
-	}
-	document.write('</table>')
-	if (NS6){document.write('</TD></TR></TABLE>')}
-	if (IE||NS6) {document.write('</DIV></DIV>')}
-	if (NS) {document.write('</LAYER></ILAYER></LAYER>')}
-	theleft=-menuWidth;lastY=0;setTimeout('initSlide();', 1)
-}
-//-->
-</SCRIPT>
-
-
-<SCRIPT>
-<!--
-
-YOffset=0; 
-XOffset=0;
-staticYOffset=30; 
-slideSpeed=15 
-waitTime=100; 
-menuBGColor="FDCB48";
-menuIsStatic="yes"; 
-menuWidth=300; 
-menuCols=2;
-hdrFontFamily="verdana";
-hdrFontSize="2";
-hdrFontColor="white";
-hdrBGColor="25CFE0";
-hdrAlign="center";
-hdrVAlign="center";
-hdrHeight="10";
-linkFontFamily="Verdana";
-linkFontSize="10";
-linkBGColor="white";
-linkOverBGColor="white";
-linkTarget="_self";
-linkAlign="center";
-barBGColor="25CFE0";
-barFontFamily="Verdana";
-barFontSize="2";
-barFontColor="white";
-barVAlign="center";
-barWidth=50; 
-barText="曲風介紹"; 
-
-
-ssmItems[0]=[""] 
-ssmItems[1]=["曲風名字", "連結頁面1", "_blank"]
-ssmItems[2]=["內容內容內容內容", "連結頁面2", "_blank"]
-ssmItems[3]=["內容內容內容內容", "連結頁面3", "_blank"]
-ssmItems[4]=["內容內容內容內容", "連結頁面4", "_blank"]
-ssmItems[5]=["內容內容內容內容", "連結頁面5", "_blank"]
-ssmItems[6]=["內容內容內容內容", "連結頁面6", "_blank"]
-
-
-buildMenu();
-
-//-->
-</SCRIPT>

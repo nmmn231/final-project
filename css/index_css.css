@@ -1,6 +1,16 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
 body{
+  width: 1366px;
 	background-image: url("bg.jpg");
-  width: 1350px;
+  font-family: 'cwTeXHei', sans-serif;
+}
+.container{
+  height: 2060px;
+  overflow: hidden;
+}
+h3{
+  margin: 0;
 }
 
 /*homepage*/
@@ -13,27 +23,15 @@ body{
   color: #FFFFFF;
 }
 
-.o{
-    width:70px;
-    position:absolute;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-timing-function:linear;
-    -webkit-animation-name:orbit;
-    -webkit-animation-duration:5s;
-    -moz-animation-iteration-count:infinite;
-    -moz-animation-timing-function:linear;
-    -moz-animation-name:orbit;
-    -moz-animation-duration:5s;
-    top:120px;
-    left:353px;
+.o{ 
+  position:absolute;
+  top:120px;
+  left:354px;
+  width:70px;
+  animation: 2s rotate360 infinite linear; 
 }
-@-webkit-keyframes orbit { 
-from { -webkit-transform:rotate(0deg) } 
-to { -webkit-transform:rotate(360deg) } 
-}
-@-moz-keyframes orbit { 
-from { -moz-transform:rotate(0deg) } 
-to { -moz-transform:rotate(360deg) } 
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
 }
 
 #chang{
@@ -42,12 +40,11 @@ to { -moz-transform:rotate(360deg) }
   top: 250px;
   left: 580px
 }
-
 #say01{
-  margin: 50px 0 0 750px;
+  margin: 50px 0 0 780px;
 }
 #say01 > h3{
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: #6ACCBB;
   text-decoration: underline;
 }
@@ -56,38 +53,42 @@ to { -moz-transform:rotate(360deg) }
 }
 #blurred{
   position: relative;
-  top: 300px;
   opacity: 0.8;
-  width: 1350px;
-  left: -10px;
+  width: 1366px;
+
+}
+#landing{
+  position: relative;
+  top: -1150px;
 }
 #punk{
 	width: 200px;
 	position: relative;
-	top: -200px;
-	left: 650px;
+	top: -160px;
+	left: 660px;
 }
 #metal{
 	width: 200px;
 	position: relative;
-	top: -180px;
+	top: -140px;
 	left: 200px;
 }
 
 #planet{
   width: 1366px;
-  margin: -500px 0 -20px -10px;
-
+  position: relative;
+  top: -510px;
 }
+
 #say02{
   width: 400px;
   position: relative;
-  top: -200px;
-  left: 750px;
+  left: 240px;
+  top: 30px;
   opacity: 0;
 }
 #say02 > h3{
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: #6ACCBB;
   text-decoration: underline;
 }
@@ -98,6 +99,37 @@ to { -moz-transform:rotate(360deg) }
 #hedgehog{
   width: 250px;
   position: absolute;
-  top: 2100px;
+  top: 1750px;
+  left: 710px;
+}
+#say03{
+  width: 400px;
+  position: relative;
   left: 800px;
+  top: -100px;
+  opacity: 0;
+}
+#say03 > h3{
+  font-size: 2.5em;
+  color: #CC9B66;
+  text-decoration: underline;
+}
+#say03 > p{
+  color: #FFFFFF;
+}
+#point01{
+  width: 200px;
+  position: relative;
+  top: -30px;
+  left: 80px;
+  font-size: 1.7em;
+  color: #FFFFFF;
+}
+#point02{
+  width: 200px;
+  position: relative;
+  top: -80px;
+  left: 1080px;
+  font-size: 1.7em;
+  color: #FFFFFF;
 }
