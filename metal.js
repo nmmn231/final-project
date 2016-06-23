@@ -251,15 +251,16 @@ setInterval(pulse, 1000);
 //人物fadeout
 $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
-    if(wScroll >= 6900 && wScroll < 7000){
+    if(wScroll >= 14400 && wScroll < 14500){
         $(".character").css("opacity","0.8");
-    }else if(wScroll >= 7100 && wScroll < 7200){
+    }else if(wScroll >= 14500 && wScroll < 14600){
         $(".character").css("opacity","0.6");
-    }else if(wScroll >= 7200 && wScroll < 7300){
+    }else if(wScroll >= 14600 && wScroll < 14700){
         $(".character").css("opacity","0.4");
-    }else if(wScroll >= 7300 && wScroll < 7400){
+    }else if(wScroll >= 14700 && wScroll < 14800){
         $(".character").css("opacity","0.2");
-    }else if(wScroll >= 7400){
+    }else if(wScroll >= 14800){
         $(".character").css("opacity","0");
     }
+    console.log(wScroll);
 });
